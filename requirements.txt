@@ -4,6 +4,6 @@ dash
 pandas
 datetime
 setuptools
-wheels
 scipy
-matplotlib
+dash_bootstrap_components
+dash_mantine_components
