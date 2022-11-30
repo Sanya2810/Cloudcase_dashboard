@@ -37,7 +37,6 @@ jobs:
 
         
     - name: run app
-      run: run app
-        app.py
+      run: app.py
         
 
