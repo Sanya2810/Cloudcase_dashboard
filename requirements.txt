@@ -1,0 +1,9 @@
+scikit-learn
+numpy
+dash
+pandas
+datetime
+setuptools
+wheels
+scipy
+matplotlib
