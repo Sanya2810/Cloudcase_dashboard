@@ -20,8 +20,8 @@ jobs:
       - id: command
         run: echo ${{ env.SHOWCASE_ENV }}
       - id: show-pipeline-environement
-        name: LeukeNaam
         run: ls
-      - run: docker version
-      - name: Build the Docker image
-        run: docker build . --tag hendrikwat/my-image-name:0.0.1
+        name: hendrik
+      - run: docker build . -t "docker push hendrikwat/cloudcase_dashboard:tagname"
+      - run: docker login -u hendrikwat -p Samsung123
+      - run: docker push "hendrikwat/cloudcase_dashboard"
