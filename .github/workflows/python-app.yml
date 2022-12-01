@@ -22,6 +22,6 @@ jobs:
       - id: show-pipeline-environement
         run: ls
         name: hendrik
-      - run: docker build . -t "docker push hendrikwat/cloudcase_dashboard:tagname"
+      - run: docker build . -t "docker push hendrikwat/cloudcase_dashboard"
       - run: docker login -u hendrikwat -p Samsung123
       - run: docker push "hendrikwat/cloudcase_dashboard"
