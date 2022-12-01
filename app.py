@@ -130,7 +130,7 @@ app.layout = dbc.Container(
                  dbc.Col(job_dropdown,
                          style={'textAlign': 'left', 'color': '#415c6c','width':"255px" }, md=1),
                  dbc.Col(html.H6('Category:'),
-                         style={'text-align': 'right', 'font-size': 12, 'color': 'white'},md=3),
+                         style={'text-align': 'right', 'font-size': 12, 'color': 'white','width':'30%'},md=3),
                  dbc.Col(category_dropdown, md=2,
                          style={'textAlign': 'center','width':"255px", 'color':'#415c6c'})
                  ]),
