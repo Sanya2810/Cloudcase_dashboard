@@ -24,4 +24,4 @@ jobs:
         name: hendrik 
       - run: docker build . --tag hendrikwat/cloudcase_dashboard:0.0.1
       - run: docker login -u hendrikwat -p Samsung123
-      - run: docker push "Sanya2810/Cloudcase_dashboard"
+      - run: docker push "Sanya2810/cloudcase_dashboard"
